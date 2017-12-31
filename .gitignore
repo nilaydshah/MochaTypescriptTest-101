@@ -1,0 +1,3 @@
+lib/
+node_modules/
+#TestResults/ <- This should be ignored actually but I'm including here to show sample report
