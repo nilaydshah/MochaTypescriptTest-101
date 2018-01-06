@@ -13,3 +13,4 @@
 4. Mochawesome for reporting.
 5. Gulp for build tasks.
 6. Visual Studio Code for code editor and launch tasks
+7. Travis for CI build and test
