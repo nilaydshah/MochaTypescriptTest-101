@@ -14,3 +14,5 @@
 5. Gulp for build tasks.
 6. Visual Studio Code for code editor and launch tasks
 7. Travis for CI build and test
+
+#### Refer this blog post for step by step guide for [Unit testing node application with TypeScript in VS Code  —  using mocha, chai, mochawesome, gulp, travis](https://blogs.msdn.microsoft.com/nilayshah/2018/01/07/unit-testing-node-application-with-typescript-in-vs-code-%E2%80%8A-%E2%80%8A-using-mocha-chai-mochawesome-gulp-travis/)
