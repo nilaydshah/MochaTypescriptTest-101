@@ -1,6 +1,6 @@
-import * as webdriver from 'selenium-webdriver';
-import * as fs from 'fs';
 import { should } from 'chai';
+let webdriver = require('selenium-webdriver');
+let fs = require('fs');
 should();
 
 // skipping this test run until configuring headless chrome for travis CI
