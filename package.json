@@ -1,7 +1,7 @@
 {
   "name": "mochatypescripttest",
   "version": "1.0.0",
-  "description": "Sample project which shows Typescript testing with Mocha, Chai and MochaAwesome Reporting",
+  "description": "Sample project which shows Typescript testing with Mocha, Chai, Selenium",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/_mocha lib/test/**/*.js --reporter mochawesome --reporter-options reportDir=TestResults"
@@ -32,9 +32,11 @@
     "@types/mocha": "^2.2.44",
     "chai": "^4.1.2",
     "del": "^3.0.0",
+    "fs": "0.0.1-security",
     "gulp": "^3.9.1",
     "gulp-typescript": "^3.2.3",
     "mocha": "^4.0.1",
-    "mochawesome": "^2.3.1"
+    "mochawesome": "^2.3.1",
+    "selenium-webdriver": "^3.0.1"
   }
 }
