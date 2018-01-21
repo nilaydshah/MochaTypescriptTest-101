@@ -1,10 +1,10 @@
+import fs = require("fs");
+import webdriver = require("selenium-webdriver");
 import { should } from 'chai';
-let webdriver = require('selenium-webdriver');
-let fs = require('fs');
 should();
 
 // skipping this test run until configuring headless chrome for travis CI
-describe.skip('Selenium Demo Test Suite', function () {
+describe('Selenium Demo Test Suite', function () {
     let driver;
     // time out for test execution
     this.timeout(60000);
