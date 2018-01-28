@@ -1,0 +1,42 @@
+{
+  "name": "mochatypescripttest",
+  "version": "1.0.0",
+  "description": "Sample project which shows Typescript testing with Mocha, Chai and build integration with VSTS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha lib/test/**/*.js --reporter mocha-junit-reporter --reporter-options mochaFile=./TestResults/TEST-RESULT.xml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilaydshah/MochaTypescriptTest-101.git"
+  },
+  "keywords": [
+    "typescript",
+    "mocha",
+    "node",
+    "chai",
+    "mochawesome",
+    "gulp"
+  ],
+  "author": "Nilay Shah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nilaydshah/MochaTypescriptTest-101/issues"
+  },
+  "homepage": "https://github.com/nilaydshah/MochaTypescriptTest-101#readme",
+  "dependencies": {
+    "typescript": "^2.6.1",
+    "gulp-cli": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.5",
+    "@types/mocha": "^2.2.44",
+    "chai": "^4.1.2",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.2.3",
+    "mocha": "^4.0.1",
+    "mochawesome": "^2.3.1",
+    "mocha-junit-reporter": "^1.17.0"
+  }
+}
