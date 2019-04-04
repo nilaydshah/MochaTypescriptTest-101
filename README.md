@@ -19,8 +19,8 @@ Travis CI: [![Build Status](https://travis-ci.org/nilaydshah/MochaTypescriptTest
 8. Browser based testing with Selenium
 
 #### Refer these blog posts for step by step guide: 
-> [Setting up node application with TypeScript in VS Code  —  using mocha, chai, mochawesome, gulp, travis](https://blogs.msdn.microsoft.com/nilayshah/2018/01/07/unit-testing-node-application-with-typescript-in-vs-code-%E2%80%8A-%E2%80%8A-using-mocha-chai-mochawesome-gulp-travis/)
+> [Setting up node application with TypeScript in VS Code  —  using mocha, chai, mochawesome, gulp, travis](https://www.nilayshah.in/2019/03/30/setting-up-node-application-with-typescript-in-vs-code-using-mocha-chai-mochawesome-gulp-travis/)
 
-> [UI Test Automation with Node.js, TypeScript, Mocha and Selenium](https://blogs.msdn.microsoft.com/nilayshah/2018/01/21/ui-test-automation-with-node-js-typescript-mocha-and-selenium/)
+> [UI Test Automation with Node.js, TypeScript, Mocha and Selenium](https://www.nilayshah.in/2019/03/31/ui-test-automation-with-node-js-typescript-mocha-and-selenium/)
 
-> [VSTS CI to Build and Test Node.js app with Gulp and Mocha](https://blogs.msdn.microsoft.com/nilayshah/2018/01/29/vsts-ci-to-build-and-test-node-js-app-with-gulp-and-mocha/)
+> [AzureDevOps (VSTS) CI to Build and Test Node.js app with Gulp and Mocha](https://www.nilayshah.in/2019/03/31/azure-devops-ci-to-build-and-test-node-js-app-with-gulp-and-mocha/)
