@@ -27,7 +27,7 @@ describe.skip('Selenium Demo Test Suite', function () {
             driver.takeScreenshot().then((data) => {
                 let screenshotPath = `TestResults/Screenshots/${testCaseName}.png`;
                 console.log(`Saving Screenshot as: ${screenshotPath}`);
-                fs.writeFileSync(screenshotPath, data, 'base64');
+                fs.writeFileSync(screenshotPath, data, { encoding: 'base64' });
             });
         } else if (testCaseStatus === 'passed') {
             console.log(`Test: ${testCaseName}, Status: Passed!`);
